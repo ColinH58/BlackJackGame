@@ -1,6 +1,6 @@
 html {
   background-color: hsla(203.3,78.8%,16.7%, 100%);
-  background-image: url(images/BlackJackBackground.png);
+  background-image: url("BlackJackBackground.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
