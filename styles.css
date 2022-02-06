@@ -1,107 +1,107 @@
 html {
+  background-image: url(/images/BlackJackBackground.png);
   background-color: hsla(203.3,78.8%,16.7%, 100%);
-    background-image: url(/BlackJackBackground.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    margin: 0 auto;
-    padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+  
+@media only screen and (max-width: 380px) {
+  nav {
+    width: 75%;
   }
+}
   
-  @media only screen and (max-width: 380px) {
-    nav {
-      width: 75%;
-    }
-  }
-  
-  body {
-      color: white;
-      font-size: 1.25rem;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-around;
-      align-items: center;
-      }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  li {
-    margin-bottom: 15px;
-  }
-  
-  /* Link Rules */
-  a:link {
-      color: 	hsla(67.3,98.4%,50.8%, 100%);
-      text-decoration: none;
-    }
-    a:hover {
-      color: hsla(79.5,46.4%,53.1%, 100%);
-      text-decoration: none;
-      transition: color 300ms linear 80ms;
-    }
-    a:active {
-      color: hsla(163.2,36.9%,60.2%, 100%);
-      text-decoration: none;
-    }
+body {
+    color: white;
+    font-size: 1.25rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
-  /* For the BlackJack game in Projects */
+h1 {
+  text-align: center;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+/* Link Rules */
+a:link {
+    color: 	hsla(67.3,98.4%,50.8%, 100%);
+    text-decoration: none;
+  }
+  a:hover {
+    color: hsla(79.5,46.4%,53.1%, 100%);
+    text-decoration: none;
+    transition: color 300ms linear 80ms;
+  }
+  a:active {
+    color: hsla(163.2,36.9%,60.2%, 100%);
+    text-decoration: none;
+}
+
+/* For the BlackJack game in Projects */
+.BlackJackGame {
+  color: white;
+  background-color: hsla(0,0%,0%, 40%);
+  font-size: 1.25rem;
+  display: block;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 75px;
+  padding: 25px;
+  border-radius: 25px;
+  width: 600px;
+  height: 350px;
+}
+
+@media only screen and (max-width: 428px) {
   .BlackJackGame {
     color: white;
     background-color: hsla(0,0%,0%, 40%);
     font-size: 1.25rem;
-    display: block;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
     align-items: center;
-    margin-top: 75px;
-    padding: 25px;
+    margin-top: 100px;
     border-radius: 25px;
-    width: 600px;
-    height: 350px;
+    width: 75vw;
+    height: auto;
   }
-  
-  @media only screen and (max-width: 428px) {
-    .BlackJackGame {
-      color: white;
-      background-color: hsla(0,0%,0%, 40%);
-      font-size: 1.25rem;
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: center;
-      align-items: center;
-      margin-top: 100px;
-      border-radius: 25px;
-      width: 75vw;
-      height: auto;
-    }
-  }
-  
-  button {
-    color: hsla(203.3,78.8%,16.7%, 100%);
-    width: 150px;
-    background: hsla(67.3,98.4%,50.8%, 100%);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: bold;
-    border: none;
-    border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
-    cursor: pointer;
-    height: 45px;
-  }
-  
-  button:hover {
-    background: hsla(79.5,46.4%,53.1%, 100%);
-    text-decoration: none;
-    transition: color 300ms linear 80ms;
-  }
-  button:active {
-    background: hsla(163.2,36.9%,60.2%, 100%);
-    text-decoration: none;
-  }
+}
+
+button {
+  color: hsla(203.3,78.8%,16.7%, 100%);
+  width: 150px;
+  background: hsla(67.3,98.4%,50.8%, 100%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  cursor: pointer;
+  height: 45px;
+}
+
+button:hover {
+  background: hsla(79.5,46.4%,53.1%, 100%);
+  text-decoration: none;
+  transition: color 300ms linear 80ms;
+}
+button:active {
+  background: hsla(163.2,36.9%,60.2%, 100%);
+  text-decoration: none;
+}
