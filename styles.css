@@ -1,0 +1,287 @@
+html {
+    background-image: url("assets/Background.jpg");
+    background-color: hsla(203.3,78.8%,16.7%, 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 15px;
+    background: hsla(52.2,22.9%,53.7%, 100%);
+    position: fixed;
+    top: 0;
+  }
+  
+  @media only screen and (max-width: 380px) {
+    nav {
+      width: 75%;
+    }
+  }
+  
+  body {
+      color: white;
+      font-size: 1.25rem;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
+      }
+  
+  .Banner {
+    background-image: url("assets/Banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: -10px;
+    margin-bottom: -60px;
+  }
+  
+  #MyName,
+  .Links {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+  
+  #MyName {
+    text-shadow: 3px 3px hsla(203.3,78.8%,16.7%, 100%);
+    font-size: 4.5rem;
+  }
+  
+  .Links {
+    background-color: hsla(0,0%,0%, 75%);
+    font-size: 3.5rem;
+  }
+  
+  @media only screen and (max-width: 1275px) {
+    #MyName,
+  .Links {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+  }
+  
+  #selfie {
+    padding: 25;
+    width: 35%;
+    margin-top: 75px;
+    border-radius: 25px;
+  }
+  
+  .AboutSetup {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25;
+    margin-top: 50px;
+  }
+  
+  .CodingJournal {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25;
+    margin-top: 50px;
+  }
+  
+  .ProjectList {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25;
+  }
+  
+  .thankyou,
+  .Projects,
+  .Interests,
+  .Contact {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25;
+    margin-top: 75px;
+    margin-bottom: 25px;
+  }
+  
+  .AboutSection,
+  .ExperienceSection,
+  .EducationSection,
+  .VolunteerSection {
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25;
+    margin-top: 75px;
+    margin-bottom: 25px;
+  }
+  
+  
+  h1,
+  #title {
+    text-align: center;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  /* Footer Section */
+  footer {
+    font-size: 1.75rem;
+    font-weight: bold;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 15px;
+    background: hsla(52.2,22.9%,53.7%, 100%);
+    position: fixed;
+    bottom: 0;
+  }
+  
+  /* Link Rules */
+  a:link {
+      color: 	hsla(67.3,98.4%,50.8%, 100%);
+      text-decoration: none;
+    }
+    a:visited {
+      color: 	hsla(67.3,98.4%,50.8%, 100%);
+      text-decoration: none;
+    }
+    a:hover {
+      color: hsla(79.5,46.4%,53.1%, 100%);
+      text-decoration: none;
+      transition: color 300ms linear 80ms;
+    }
+    a:active {
+      color: hsla(163.2,36.9%,60.2%, 100%);
+      text-decoration: none;
+    }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid hsla(52.2,22.9%,53.7%, 100%);
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: hsla(67.3,98.4%,50.8%, 100%);
+    font-family: "Roboto", sans-serif;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: hsla(79.5,46.4%,53.1%, 100%);
+    transition: color 300ms linear 80ms;
+  }
+  
+  input[type=submit]:active {
+    background-color: hsla(163.2,36.9%,60.2%, 100%);
+  }
+  
+  .ContactForm {
+    border-radius: 25px;
+    background-color: hsla(52.2,22.9%,53.7%, 100%);
+    padding: 50px;
+    margin: 50px;
+  }
+  
+  /* For the BlackJack game in Projects */
+  .BlackJackGame {
+    color: white;
+    background-color: hsla(0,0%,0%, 40%);
+    font-size: 1.25rem;
+    display: block;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 75px;
+    padding: 25px;
+    border-radius: 25px;
+    width: 600px;
+    height: 350px;
+  }
+  
+  @media only screen and (max-width: 428px) {
+    .BlackJackGame {
+      color: white;
+      background-color: hsla(0,0%,0%, 40%);
+      font-size: 1.25rem;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      border-radius: 25px;
+      width: 75vw;
+      height: auto;
+    }
+  }
+  
+  button {
+    color: hsla(203.3,78.8%,16.7%, 100%);
+    width: 150px;
+    background: hsla(67.3,98.4%,50.8%, 100%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    cursor: pointer;
+    height: 45px;
+  }
+  
+  button:hover {
+    background: hsla(79.5,46.4%,53.1%, 100%);
+    text-decoration: none;
+    transition: color 300ms linear 80ms;
+  }
+  button:active {
+    background: hsla(163.2,36.9%,60.2%, 100%);
+    text-decoration: none;
+  }
